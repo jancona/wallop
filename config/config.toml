@@ -1,5 +1,5 @@
-hdhomerun_host = "192.168.1.13"
-hdhr_transcode = false
+hdhomerun_host = "192.168.1.131"
+hdhr_transcode = true
 ffmpeg_path = "/usr/local/bin/ffmpeg"
 transcoding_path = "./tmp"
 port = "8888"
