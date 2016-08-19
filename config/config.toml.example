@@ -1,13 +1,13 @@
 hdhomerun_host = "192.168.1.131"
 hdhr_transcode = true
-ffmpeg_path = "/usr/local/bin/ffmpeg"
+ffmpeg_path = "/usr/bin/avconv"
 transcoding_path = "./tmp"
 port = "8888"
 hd_start = 500
 
 [ffmpeg]
 threads = 4
-acodec = "libfaac"
+acodec = "libvo_aacenc"
 framerate = "29.97"
 h264_preset = "superfast"
 hls_time = 2
