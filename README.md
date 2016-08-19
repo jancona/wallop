@@ -1,6 +1,6 @@
 # :zap: Wallop :zap:
 
-Wallop is a transcoding server for your [HDHomeRun Prime](http://www.silicondust.com/products/hdhomerun/prime/).
+Wallop is a transcoding server for your [HDHomeRun Prime](https://www.silicondust.com/product/hdhomerun-prime/).
 
 Wallop lets you watch TV streams on your iPhone, iPad, Roku, Web, Android device. Even away from home.
 
@@ -117,7 +117,7 @@ This will fulfill any new dependencies as well as anything else that needs to ha
 
 Wallop is pretty simple, but it does have a couple user configurable settings.
 
-You can edit these settings via the `config/config.toml` file.
+You can edit these settings via the `config/config.toml.example` file. Once you have updated your setting save the file back to the config directory as `config.toml`.
 
 ```toml
 hdhomerun_host = "192.168.1.13"
